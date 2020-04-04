@@ -1,0 +1,11 @@
+.input-box input{
+   height: 80rpx;
+   line-height: 80rpx;
+   margin:20rpx 40rpx;
+   padding: 0 20px;
+   border: 1px solid #eee;
+}
+
+.choose{
+   border:1px solid red;
+}

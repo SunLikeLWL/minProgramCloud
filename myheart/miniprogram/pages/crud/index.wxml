@@ -1,0 +1,20 @@
+<view class='input-box'>
+	<input type="text" bindinput="inputUserName" value='{{user.name}}' placeholder="名字"></input>
+	<input type="number" bindinput="inputUserAge" value='{{user.age}}' placeholder="年龄"></input>
+</view>
+
+
+<view class='btns'>
+	<button bindtap='addData'>添加数据</button>
+	<button bindtap='getData'>获取数据</button>
+	<button bindtap='deleteData'>删除数据</button>
+	<button bindtap='editData'>修改数据</button>
+</view>
+
+
+<view class='list-box'>
+	<view class="list {{item.choose?'choose':''}}" wx:for='{{list}}' data-id='{{item._id}}' bindtap="chooseList" data-index = '{{index}}'>
+		<view class = 'name'>姓名：{{item.name}}</view>
+		<view class = 'age'>年龄：{{item.age}}</view>
+	</view>
+</view>

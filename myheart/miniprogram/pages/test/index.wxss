@@ -1,0 +1,31 @@
+.img{
+  width:100%;
+  height: auto;
+}
+
+.title{
+   text-align: center;
+   height: 60px;
+   line-height: 60px;
+}
+
+.btns{
+
+}
+
+.btns button{
+  width: 40%;
+  margin: 5%;
+  float: left;
+}
+
+.t1{
+  margin: 0 5%;
+}
+
+.img-box{
+  margin: 0 5%;
+}
+.img-box image{
+   margin-top: 20px;
+}
